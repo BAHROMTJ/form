@@ -1,0 +1,84 @@
+.btn{
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+}
+button[type="submit"]{
+    background-color:#ff2727 ;
+    border: none;
+    color: azure;
+    padding: 10px 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+form input{
+
+    padding: 9px 10px;
+    box-sizing: content-box;
+    border-radius: 5px;
+    border: none;
+   background-color: #ffffff !important;
+}
+form input:autofill{background-color: #ffffff;}
+
+.span{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+.addTodoForm{
+    
+    margin: auto;
+    text-align: center;
+}
+h1{
+
+margin: auto;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 50px;
+font-size: 50px;
+
+}
+.todos{
+
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.todo{
+    max-width: 85%;
+    display: flex;
+    justify-content: center;
+    gap: 73px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+    box-shadow: -1px 5px 7px -5px black;
+    animation-name: example;
+  animation-duration: 50s;
+}
+@keyframes example {
+    0%   {background-color: red; color: #ffffff}
+    25%  {background-color: yellow; color: #000000}
+    30%  {background-color: blue; color: #ffffff}
+    40% {background-color: green;}
+    60% {background-color: rgb(255, 255, 255); color: #000000}
+    80% {background-color: rgb(0, 107, 128); color: #ffffff}
+    100% {background-color: green;}
+  }
+.cont{
+    width: 70%;
+    border-radius: 20px;
+    margin: auto;
+    background-color:#98b73b ;
+    padding: 30px;
+    box-shadow: rgba(79, 255, 52, 0.619) 0px 8px 8px;}
